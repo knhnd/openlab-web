@@ -6,21 +6,27 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: '💻 OpenLab',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				discord: 'https://github.com/withastro/starlight',
 			},
+			customCss: [
+				// カスタムCSSファイルへの相対パス
+				'./src/styles/custom.css',
+			],
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Home', slug: 'index'
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'About', slug: 'about'
+				},
+				{
+					label: 'Courses',
+					items: [
+						{ label: 'Web入門と情報リテラシー', slug: 'guides/example' },
+						{ label: 'Webコミュニケーション', slug: 'guides/example' },
+					],
 				},
 			],
 		}),
