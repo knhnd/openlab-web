@@ -8,7 +8,7 @@ export default defineConfig({
 	base: '/openlab-web',
 	integrations: [
 		starlight({
-			title: '💻 OpenLab',
+			title: '🧪 OpenLab',
 			social: {
 				discord: 'https://discord.gg/FxW5G2PCJF',
 			},
@@ -18,19 +18,19 @@ export default defineConfig({
 			],
 			sidebar: [
 				{
-					label: 'Home', slug: 'index'
+					label: '🏠 Home', slug: 'index'
 				},
 				{
-					label: 'Courses', slug: 'courses'
+					label: '💻 Courses', slug: 'courses'
 				},
 				{
-					label: 'Tutorials', slug: 'tutorials'
+					label: '📝 Tutorials', slug: 'tutorials'
 				},
 				{
-					label: 'Documents', slug: 'documents'
+					label: '📚 Documents', slug: 'documents'
 				},
 				{
-					label: 'Others', slug: 'others'
+					label: '🗂️ Others', slug: 'others'
 				},
 			],
 		}),
