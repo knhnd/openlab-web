@@ -21,16 +21,16 @@ export default defineConfig({
 					label: 'Home', slug: 'index'
 				},
 				{
-					label: 'Courses', slug: 'courses'
+					label: 'Courses', slug: './courses/'
 				},
 				{
-					label: 'Tutorials', slug: 'tutorials'
+					label: 'Tutorials', slug: './tutorials/'
 				},
 				{
-					label: 'Documents', slug: 'documents'
+					label: 'Documents', slug: './documents/'
 				},
 				{
-					label: 'Others', slug: 'others'
+					label: 'Others', slug: './others/'
 				},
 			],
 		}),
