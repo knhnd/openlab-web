@@ -4,7 +4,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://knhnd',
+	site: 'https://knhnd.github.io/openlab-web/',
 	base: '/openlab-web',
 	integrations: [
 		starlight({
