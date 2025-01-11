@@ -8,7 +8,7 @@ export default defineConfig({
 		starlight({
 			title: '💻 OpenLab',
 			social: {
-				discord: 'https://github.com/withastro/starlight',
+				discord: 'https://discord.gg/FxW5G2PCJF',
 			},
 			customCss: [
 				// カスタムCSSファイルへの相対パス
@@ -19,14 +19,16 @@ export default defineConfig({
 					label: 'Home', slug: 'index'
 				},
 				{
-					label: 'About', slug: 'about'
+					label: 'Courses', slug: 'courses'
 				},
 				{
-					label: 'Courses',
-					items: [
-						{ label: 'Web入門と情報リテラシー', slug: 'guides/example' },
-						{ label: 'Webコミュニケーション', slug: 'guides/example' },
-					],
+					label: 'Tutorials', slug: 'tutorials'
+				},
+				{
+					label: 'Documents', slug: 'documents'
+				},
+				{
+					label: 'Others', slug: 'others'
 				},
 			],
 		}),

@@ -1,7 +1,24 @@
-.astro-v37mnknz {
-    display: none !important;
+/* サイドバーの幅を調整 */
+.sidebar-pane {
+    width: 200px !important;
 }
 
+/* コンテンツエリア */
+.content-panel {
+    margin-left: 0px !important;
+}
+
+/* マークダウンエリア */
+.sl-markdown-content {
+    max-width: 1000px;
+}
+
+/* 検索バーの削除 */
+/* .astro-v37mnknz {
+    display: none !important;
+} */
+
+/* フッターメニューの削除 */
 .astro-u2l5gyhi {
     display: none !important;
 }
