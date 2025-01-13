@@ -32,11 +32,15 @@ export default defineConfig({
           slug: 'tutorials',
         },
         {
-          label: '📚 Documents',
+          label: '🗂️ Documents',
           slug: 'documents',
         },
         {
-          label: '🗂️ Others',
+          label: '📚 Research',
+          slug: 'research',
+        },
+        {
+          label: '🚀 Others',
           slug: 'others',
         },
       ],
