@@ -3,6 +3,8 @@ title: Welcome to OpenLab
 tableOfContents: false
 ---
 
+import { basePath } from '../../utils/basePath';
+
 ### About
 
 OpenLab は、大学での授業や研究、開発、交流などの活動をよりオープンで効率的に楽しめることを目指して立ち上げたコミュニティです。管理者・メンバーが所属する大学の公式のものではありません。
@@ -10,11 +12,11 @@ OpenLab は、大学での授業や研究、開発、交流などの活動をよ
 
 #### Pages
 
-- **[Courses](./courses)**：各大学で開講しているコース一覧
-- **[Tutorials](./tutorials)**：大学で開講されていないコース一覧
-- **[Documents](./documents)**：授業や開発に関するドキュメント
-- **[Research](./research)**：研究に関するドキュメント
-- **[Others](./others)**：その他さまざまな情報のまとめ
+- **<a href={`${basePath}courses/`}>Courses</a>** : 各大学で開講しているコース一覧
+- **<a href={`${basePath}tutorials/`}>Tutorials</a>** : 大学で開講されていないコース一覧
+- **<a href={`${basePath}documents/`}>Documents</a>** : 授業や開発に関するドキュメント
+- **<a href={`${basePath}research/`}>Research</a>** : 研究に関するドキュメント
+- **<a href={`${basePath}others/`}>Others</a>** : その他さまざまな情報のまとめ
 
 #### Contacts
 
