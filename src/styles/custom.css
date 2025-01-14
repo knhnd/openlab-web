@@ -22,3 +22,49 @@
 .astro-u2l5gyhi {
     display: none !important;
 }
+
+.page-navigation {
+    display: flex;
+    /* 横並びにする */
+    justify-content: space-between;
+    /* 要素を両端に配置 */
+    align-items: center;
+    /* 要素を中央に揃える */
+    margin-top: 20px;
+    /* 上下の余白 */
+}
+
+a.back {
+    margin-right: auto;
+    /* 左端に寄せる */
+}
+
+a.top {
+    margin: 0 auto;
+    /* 中央に配置 */
+    text-align: center;
+}
+
+a.next {
+    margin-left: auto;
+    /* 右端に寄せる */
+}
+
+.embed-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /* 16:9 のアスペクト比 */
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    transform: scale(1.1);
+    /* スライド全体を1.25倍に拡大 */
+    transform-origin: top left;
+    /* 拡大時の起点を左上に設定 */
+}
