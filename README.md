@@ -1,6 +1,6 @@
 # OpenLab Web
 
-- Site URL: `https://knhnd.github.io/openlab-web/`
+- Site URL: [https://knhnd.github.io/openlab-web/](https://knhnd.github.io/openlab-web/)
 
 ## Project Structure
 
@@ -31,3 +31,6 @@
 - 各ドキュメントファイル (`mdx`) では始めに `import { basePath } from '../../utils/basePath';` のように書く（import path はそれぞれの位置で変わるので注意）
 - リンクは `<a href={`${basePath}courses/`}>Courses</a>` のようにアンカータグを使う
 
+## Links
+
+- [Astro](https://astro.build/)

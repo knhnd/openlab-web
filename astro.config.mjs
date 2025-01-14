@@ -15,8 +15,7 @@ export default defineConfig({
         discord: 'https://discord.gg/FxW5G2PCJF',
       },
       customCss: [
-        // カスタムCSSファイルへの相対パス
-        './src/styles/custom.css',
+        './src/styles/custom.css',  // カスタムCSSファイルへの相対パス
       ],
       sidebar: [
         {

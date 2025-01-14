@@ -24,19 +24,19 @@
 }
 
 .page-navigation {
-    display: flex;
     /* 横並びにする */
-    justify-content: space-between;
+    display: flex;
     /* 要素を両端に配置 */
-    align-items: center;
+    justify-content: space-between;
     /* 要素を中央に揃える */
-    margin-top: 20px;
+    align-items: center;
     /* 上下の余白 */
+    margin-top: 20px;
 }
 
 a.back {
-    margin-right: auto;
     /* 左端に寄せる */
+    margin-right: auto;
 }
 
 a.top {
@@ -46,15 +46,15 @@ a.top {
 }
 
 a.next {
-    margin-left: auto;
     /* 右端に寄せる */
+    margin-left: auto;
 }
 
 .embed-container {
     position: relative;
     overflow: hidden;
-    padding-top: 56.25%;
     /* 16:9 のアスペクト比 */
+    padding-top: 56.25%;
 }
 
 .embed-container iframe {
@@ -63,8 +63,8 @@ a.next {
     left: 0;
     width: 90%;
     height: 90%;
-    transform: scale(1.1);
     /* スライド全体を1.25倍に拡大 */
-    transform-origin: top left;
+    transform: scale(1.1);
     /* 拡大時の起点を左上に設定 */
+    transform-origin: top left;
 }
