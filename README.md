@@ -7,15 +7,21 @@
 - `astro.config.mjs`: ページ全体の設定
 - `src/content/docs/`: マークダウンでページを作成
 
-## Deploy
+## Server
 
-[公式ドキュメント](https://docs.astro.build/ja/guides/deploy/github/)を参考に GitHub Pages にデプロイ
+### Local Server
+
+- `npm run dev`
+
+### Deploy
+
+- [公式ドキュメント](https://docs.astro.build/ja/guides/deploy/github/)を参考に GitHub Pages にデプロイ
 
 ## Trouble Shooting
 
 ### 開発と本番環境でPATHが変わってしまう
 
-ローカルサーバ（`npm run dev`）と本番環境（GitHub Pages）で URL が変わるためパスが合わなくなりリンクや画像が機能しない。
+#### ローカルサーバ（`npm run dev`）と本番環境（GitHub Pages）で URL が変わるためパスが合わなくなりリンクや画像が機能しない
 
 - `basePath` を設定して開発と本番環境で自動でパスが合うように設定する
     - `src/utils` というフォルダを作成
