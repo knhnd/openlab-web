@@ -10,25 +10,33 @@ Windows を対象とした開発環境の構築
 ##### 設定
 
 - アクセシビリティ > マウスポインターとタッチ
-    - サイズ: 3
+  - サイズ: 3
 - アクセシビリティ > マウスポインターとタッチ > タッチパッド
-    - カーソル速度: MAX
+  - カーソル速度: MAX
 
 ##### コントロールパネル
 
 - 表示方法 > 大きいアイコン > キーボード
-    - 表示までの待ち時間: 短く (MAX)
-    - 表示の間隔: 早く (MAX)
+  - 表示までの待ち時間: 短く (MAX)
+  - 表示の間隔: 早く (MAX)
 
 ##### ファイルエクスプローラ
 
 - 表示 > 表示
-    - ファイル拡張子を表示する
-    - 隠しファイルを表示する
+  - ファイル拡張子を表示する
+  - 隠しファイルを表示する
 
-##### キーボード関連
+##### キーボード
 
 Microsoft Store から [Microsoft PowerToys](https://learn.microsoft.com/ja-jp/windows/powertoys/) をインストール
+
+- [Ctrl2Cap](https://learn.microsoft.com/ja-jp/sysinternals/downloads/ctrl2cap)
+  - CapsLock キーを Ctrl キーに変更
+  - Ctrl2Cap.exe を実行して PC を再起動
+- 設定を開いて Microsoft IME を検索 > キーとタッチのカスタマイズ
+  - キーの割当をオン
+    - 無変換キー: IME-オフ
+    - 変換キー: IME-オン
 
 #### ソフトウェア
 
@@ -37,6 +45,14 @@ Microsoft Store から [Microsoft PowerToys](https://learn.microsoft.com/ja-jp/w
 - ユーザ数が多いので開発するなら基本は Chrome
 
 ##### [Google 日本語入力](https://www.google.co.jp/ime/)
+
+- キーの割当を変更
+
+  - `タスクバーの「あ」or「A」を右クリック > プロパティ > キー設定 > キー設定の選択 > 編集`
+    - 変換前入力中: Henkan: ひらがなに入力切替
+    - 直接入力: Henkan: ひらがなに入力切替
+    - 入力文字なし: Henkan: ひらがなに入力切り替え
+    - 入力文字なし: Muhenkan: IME 無効化
 
 - 環境設定で句読点を「**, .**」に変更 (情報系の論文を書く人向け)
 
